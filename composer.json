@@ -1,0 +1,21 @@
+{
+    "name": "webfactorybulgaria/currencies",
+    "description": "Currencies module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atanas Georgiev",
+            "email": "atanas.georgiev@webfactory.bg"
+        }
+    ],
+    "require": {
+        "webfactorybulgaria/core": "~4.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TypiCMS\\Modules\\Currencies\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
