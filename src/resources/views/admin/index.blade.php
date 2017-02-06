@@ -26,10 +26,10 @@
                 <tr>
                     <th class="delete"></th>
                     <th class="edit"></th>
-                    <th st-sort="status" class="status st-sort">Status</th>
-                    <th st-sort="title" class="title st-sort">ISO code</th>
-                    <th st-sort="symbol" class="title st-sort">Symbol</th>
-                    <th st-sort="rate" class="rate st-sort">Exchange rate</th>
+                    <th st-sort="status" class="status st-sort">@lang('currencies::global.attributes.status')</th>
+                    <th st-sort="title" class="title st-sort">@lang('currencies::global.attributes.iso')</th>
+                    <th st-sort="symbol" class="title st-sort">@lang('currencies::global.attributes.symbol')</th>
+                    <th st-sort="rate" class="rate st-sort">@lang('currencies::global.attributes.rate')</th>
                 </tr>
                 <tr>
                     <td colspan="2"></td>

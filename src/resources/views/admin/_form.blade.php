@@ -7,13 +7,13 @@
 {!! BootForm::hidden('id') !!}
 <div class="row">
     <div class="col-md-4">
-        {!! BootForm::select(trans('validation.attributes.format'), 'format', config('typicms.currencies.formats')) !!}
+        {!! BootForm::select(trans('currencies::global.attributes.format'), 'format', config('typicms.currencies.formats')) !!}
     </div>
     <div class="col-md-4">
-        {!! BootForm::text(trans('validation.attributes.rate'), 'rate') !!}
+        {!! BootForm::text(trans('currencies::global.attributes.rate'), 'rate') !!}
     </div>
     <div class="col-md-4">
-        {!! BootForm::text(trans('validation.attributes.iso'), 'iso') !!}
+        {!! BootForm::text(trans('currencies::global.attributes.iso'), 'iso') !!}
     </div>
 </div>
 <div class="row">
@@ -21,7 +21,7 @@
         {!! TranslatableBootForm::text(trans('validation.attributes.title'), 'title') !!}
     </div>
     <div class="col-md-4">
-        {!! TranslatableBootForm::text(trans('validation.attributes.symbol'), 'symbol') !!}
+        {!! TranslatableBootForm::text(trans('currencies::global.attributes.symbol'), 'symbol') !!}
     </div>
     <div class="col-md-4">
         {!! TranslatableBootForm::hidden('status')->value(0) !!}

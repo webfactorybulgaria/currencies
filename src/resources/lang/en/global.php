@@ -6,4 +6,12 @@ return [
     'New'      => 'New currency',
     'Edit'     => 'Edit currency',
     'Back'     => 'Back to currencies',
+
+    'attributes' => [
+        'format' => 'Format',
+        'rate' => 'Exchange rate',
+        'iso' => 'ISO code',
+        'symbol' => 'Symbol',
+        'status' => 'Status',
+    ]
 ];
