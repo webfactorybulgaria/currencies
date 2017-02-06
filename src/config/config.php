@@ -6,7 +6,7 @@ return [
         'id' => 'desc',
     ],
     'sidebar' => [
-        'icon' => 'icon fa fa-fw fa-cube',
+        'icon' => 'icon fa fa-fw fa-money',
         'weight' => 8,
     ],
 
