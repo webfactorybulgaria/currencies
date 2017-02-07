@@ -1,9 +1,17 @@
 <?php
 
 return [
-    'name'     => 'Currencies',
+    'name'     => 'Devises',
     'currencies'  => 'currency|currencies',
-    'New'      => 'Nouveau currency',
-    'Edit'     => 'Modifier currency',
-    'Back'     => 'Retour à la liste des currencies',
+    'New'      => 'Nouvelle monnaie',
+    'Edit'     => 'Modifier la devise',
+    'Back'     => 'Retour aux monnaies',
+
+    'attributes' => [
+        'format' => 'Format',
+        'rate' => 'Taux de change',
+        'iso' => 'Code ISO',
+        'symbol' => 'Symbole',
+        'status' => 'Statut',
+    ]
 ];

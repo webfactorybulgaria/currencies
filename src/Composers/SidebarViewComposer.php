@@ -11,7 +11,8 @@ class SidebarViewComposer
 {
     public function compose(View $view)
     {
-        $view->sidebar->group(trans('global.menus.shop'), function (SidebarGroup $group) {
+        $view->sidebar->group(trans('shop::global.name'), function (SidebarGroup $group) {
+            $group->id = 'shop';
             $group->addItem(trans('currencies::global.name'), function (SidebarItem $item) {
                 $item->id = 'currencies';
                 $item->icon = config('typicms.currencies.sidebar.icon');
