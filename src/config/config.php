@@ -7,7 +7,7 @@ return [
     ],
     'sidebar' => [
         'icon' => 'icon fa fa-fw fa-money',
-        'weight' => 8,
+        'weight' => 40,
     ],
 
     /*
